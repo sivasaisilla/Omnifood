@@ -59,7 +59,8 @@ html {
   font-size: 62.5%;
 
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  /* Making scrolling using css but we done itusing js so that it will works for all browsers */
+  /* scroll-behavior: smooth; */
 }
 
 body {
