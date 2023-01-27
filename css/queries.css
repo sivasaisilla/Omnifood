@@ -118,6 +118,7 @@
   /* Mobile Navigation */
   .btn-mobile-nav {
     display: block;
+    z-index: 999999;
   }
 
   .main-nav {
