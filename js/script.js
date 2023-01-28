@@ -93,7 +93,6 @@ function checkFlexGap() {
   document.body.appendChild(flex);
   var isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
-  console.log(isSupported);
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
   // Add the no-flexbox-gap class in body of the html(autmatically adds if safari doesnt render gap in flexbox)
